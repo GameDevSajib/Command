@@ -36,7 +36,7 @@ chmod -R 777 /root/data
 or chmod -R 777 ahad34.txt
 
 
-smbclient //192.168.174.128/slashrootdotin  
+smbclient //192.168.174.128/slashrootdotin (in kali linux)
         
 
  
