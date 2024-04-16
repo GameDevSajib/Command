@@ -1,0 +1,36 @@
+ sudo apt install samba -y
+ sudo nano /etc/samba/smb.conf
+(now we will remove the existing smb.conf and create a new smb.conf)
+(we will edit this )
+
+[slashrootdotin]
+path=/root/data
+browseable=yes
+read only =no
+
+//
+
+ 
+
+ sudo smbpasswd -a root
+(here we will type our passward we wish )
+
+ sudo service smbd start
+ sudo service nmbd start
+ sudo service smbd status
+
+(Now (condition:already root ))
+cd ~
+(our path was /root/data)
+pwd
+
+mkdir data
+cd data
+(now do enything you want!!!!!!!!!!)
+(for me it is ahad.txt)
+
+
+sudo chmod -R 777 /root/data
+
+
+ 
