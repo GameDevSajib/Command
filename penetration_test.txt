@@ -8,6 +8,9 @@ sudo nmap --script smb-os-discovery.nse 192.168.174.129
 
 
 
+enum4linux -U -o 192.168.174.129 (VPLE ip ) 
+nmap -script smb-enum-users.nse -p 445 192.168.174.129(VPLE ip)
+
  useradd -s /bin/bash -m sajib
  usermod -aG sudo sajib
  passwd sajib
