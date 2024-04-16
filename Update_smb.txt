@@ -40,6 +40,7 @@ service smbd start
 service nmbd start
 smbclient //192.168.174.128/slashrootdotin (in kali linux)
 smbclient -L ////192.168.174.129 
+smbclient  //192.168.174.129/ahad34 
 
         
 
