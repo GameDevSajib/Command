@@ -13,3 +13,7 @@ smbclient \\\\192.168.174.129\\ahad34
 
 proxychains nmap -sT -p 1335 192.168.174.129
 proxychains nmap -sT -p 80  192.168.174.128
+
+/////
+nmap 192.168.174.130 -p- --min-rate 20000 >>ahad1.txt
+nmap -sCV 192.168.174.130 >> ahad2.txt  
