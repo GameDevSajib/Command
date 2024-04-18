@@ -1,0 +1,14 @@
+sudo apt-get install mysql-server -y
+sudo systemctl enable --now mysql
+sudo mysql_secure_installation
+sudo mysql -u root -p
+CREATE DATABASE techtarget;
+show databases;
+
+CREATE USER 'techtargetuser'@'localhost' IDENTIFIED BY 'PASSWORD';
+
+
+
+
+follow this link:
+https://www.techtarget.com/searchdatacenter/tip/How-to-set-up-a-MySQL-database-in-Linux
