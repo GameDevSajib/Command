@@ -17,3 +17,6 @@ proxychains nmap -sT -p 80  192.168.174.128
 /////
 nmap 192.168.174.130 -p- --min-rate 20000 >>ahad1.txt
 nmap -sCV 192.168.174.130 >> ahad2.txt  
+
+sudo apt-get install apache2(in vple) if needed 
+sudo apt-get install phpmyadmin(in vple) if needed 
