@@ -3,6 +3,7 @@ sudo systemctl enable --now mysql
 sudo mysql_secure_installation
 sudo mysql -u root -p
 CREATE DATABASE techtarget;
+DROP DATABASE techtarget;( if you want to remove) 
 show databases;
 
 CREATE USER 'techtargetuser'@'localhost' IDENTIFIED BY 'PASSWORD';
