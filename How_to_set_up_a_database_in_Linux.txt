@@ -6,7 +6,7 @@ CREATE DATABASE techtarget;
 show databases;
 
 CREATE USER 'techtargetuser'@'localhost' IDENTIFIED BY 'PASSWORD';
-
+GRANT ALL ON techtarget.* To 'techtargetuser'@'localhost' WITH GRANT OPTION;
 
 
 
