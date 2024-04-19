@@ -10,6 +10,9 @@ CREATE USER 'techtargetuser'@'localhost' IDENTIFIED BY 'PASSWORD';
 GRANT ALL ON techtarget.* To 'techtargetuser'@'localhost' WITH GRANT OPTION;
 
 
+sudo find / -type d -name wordpress
+
+
 
 follow this link:
 https://www.techtarget.com/searchdatacenter/tip/How-to-set-up-a-MySQL-database-in-Linux
