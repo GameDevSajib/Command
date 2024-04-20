@@ -34,5 +34,7 @@ sudo apt-get install python3-pip(IN vple)
 python3 server2.py(in vple)
 python3 -m http.server 8081 (in vple)
 
+////in vple  for (server2.py) we will blank the ip address for our purpose  
+
 
 
