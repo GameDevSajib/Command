@@ -29,12 +29,17 @@ wget 192.168.174.129:8081/server2.py(IN VPLE)
 
 sudo apt-get install python-pip( in vple)
 pip install http
-sudo apt-get install openssh-server(in kali linux)
 sudo apt-get install python3-pip(IN vple)
 python3 server2.py(in vple)
 python3 -m http.server 8081 (in vple)
 
 ////in vple  for (server2.py) we will blank the ip address for our purpose  
+
+
+
+////for ssh 
+sudo apt-get install openssh-server(in kali linux)
+sudo apt-get install ufw 
 
 
 
