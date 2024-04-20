@@ -20,3 +20,6 @@ nmap -sCV 192.168.174.130 >> ahad2.txt
 
 sudo apt-get install apache2(in vple) if needed 
 sudo apt-get install phpmyadmin(in vple) if needed 
+
+python -m http.server 8081 (server2.py ) we will use this script 
+
