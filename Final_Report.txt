@@ -47,5 +47,9 @@ sudo service ssh restart
 ssh sajib@192.168.174.128
 
 
+/////now setiing docker 
+
+
+
 
 
