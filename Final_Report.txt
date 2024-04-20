@@ -40,6 +40,9 @@ python3 -m http.server 8081 (in vple)
 ////for ssh 
 sudo apt-get install openssh-server(in kali linux)
 sudo apt-get install ufw 
+sudo ufw allow ssh
+sudo service ssh restart 
+
 
 
 
