@@ -43,6 +43,9 @@ sudo apt-get install ufw
 sudo ufw allow ssh
 sudo service ssh restart 
 
+///// (now if we go to arch /debian or any linux distribution we can login using the below command )
+ssh sajib@192.168.174.128
+
 
 
 
