@@ -28,4 +28,6 @@ python -m http.server 8081 (server2.py ) we will use this script
 wget 192.168.174.129:8081/server2.py(IN VPLE)
 
 sudo apt-get install python-pip( in vple)
+sudo apt-get install openssh-server(in kali linux)
+
 
