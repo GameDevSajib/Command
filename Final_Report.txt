@@ -45,6 +45,10 @@ sudo service ssh restart
 
 ///// (now if we go to arch /debian or any linux distribution we can login using the below command )
 ssh sajib@192.168.174.128
+         or 
+sudo ssh -p 22  administrator@192.168.174.129
+ both of them will work perfectly
+
 
 
 /////now setiing docker 
