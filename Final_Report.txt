@@ -50,6 +50,10 @@ sudo ssh -p 22  administrator@192.168.174.129
  both of them will work perfectly
 
 
+ if the is some problem to login then try( if needed)
+ ssh-keygen -f '/home/sajib/.ssh/known_hosts' -R '192.168.174.129'( into kali linux because here this problem was identified)
+
+
 
 /////now setiing docker 
 
