@@ -54,7 +54,7 @@ sudo ssh -p 22  administrator@192.168.174.129
  ssh-keygen -f '/home/sajib/.ssh/known_hosts' -R '192.168.174.129'( into kali linux because here this problem was identified)
 
 
-  
+  ///ssh  port forwarding 
   ssh-keygen -t rsa -N ‘’ -f ~/.ssh/key ( in kali linux)
   ssh -f -N -R 1080 -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" -i key sajib@192.168.174.128
   ssh -f -N -R 1080 -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" -i key administrator@192.168.174.129 
