@@ -60,6 +60,33 @@ sudo service tor start
 service tor status
 
 
+////xampp configuration
+don't use (service apache2 start)
+if once install xampp then:
+  cd /opt/lampp/htdocs
+  after  going to this directory type 
+     sudo mkdir phplogin
+     cd /phplogin
+  here ww will put our web files :
+          connection.php
+          index.php
+          login.php
+          style.css
+          welcome.php
+
+after shutting down down or rebooting 
+open root terminal
+
+cd /opt/lampp
+./xampp start
+
+inshallah  hopefully everything will works fine !!!!
+
+
+
+
+
+
 
 
 
