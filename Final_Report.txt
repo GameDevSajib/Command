@@ -144,6 +144,13 @@ here for me  (wordpressdb,sajib,toor,localhost)!!!
 
 
 
+useradd -s /bin/bash -m ahad34
+usedmod -aG sudo ahad34
+passwd ahad34
+su ahad34
+
+
+
 
 
 
