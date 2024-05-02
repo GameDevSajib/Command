@@ -155,6 +155,7 @@ su ahad34
 
 ///for colorful commands
 echo -e "\e[31mThis \e[32mis \e[33ma \e[34mrainbow \e[35mtext\e[0m"
+echo -e "\e[31mThis \e[32mis \e[33mmy \e[34mpenetration \e[35mTesting   \e[36mLab\e[0m"
 
 
 
