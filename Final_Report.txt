@@ -37,11 +37,18 @@ python3 -m http.server 8081 (in vple)
 
 
 
-////for ssh 
+////for ssh (Debian)
 sudo apt-get install openssh-server(in kali linux)
 sudo apt-get install ufw 
 sudo ufw allow ssh
 sudo service ssh restart 
+
+
+////for ssh (Arch)
+sudo pacman -S openssh
+sudo systemctl start sshd
+sudo systemctl enable sshd
+sudo ufw allow 22/tcp
 
 ///// (now if we go to arch /debian or any linux distribution we can login using the below command )
 ssh sajib@192.168.174.128
