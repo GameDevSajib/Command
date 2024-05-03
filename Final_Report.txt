@@ -173,6 +173,11 @@ echo -e "\e[32mhello \e[0m"
 echo -e "\e[33mhello \e[0m"
 echo -e "\e[34mhello \e[0m"
 ..........
+////enable bluetooth service in kali linux 
+sudo apt-get install bluez*  
+sudo apt-get install blueman
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service 
 
 
 
