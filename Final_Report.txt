@@ -179,8 +179,8 @@ sudo apt-get install blueman
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service 
 
-
-
+//image ascii
+jp2a a.jpg --colors
 
 
 
