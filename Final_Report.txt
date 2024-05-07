@@ -1,3 +1,6 @@
+
+ifconfig | sed -En 's/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p' | sed -n '2p'
+
 nmap 192.168.174.129 -p- --min-rate 20000
 nmap -sCV 192.168.174.129 
 nmap -sV -sC --script=vuln -v 192.168.174.129
