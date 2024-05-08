@@ -199,6 +199,9 @@ whatis msfvenom
 ///to find my ip address at a time
 ip address |grep wlan0 |grep inet| awk '{print $2}'
 
+//traceroute coomand
+traceroute google.com  
+
 
 
 
