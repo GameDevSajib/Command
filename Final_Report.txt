@@ -196,6 +196,10 @@ net.sniff on
 whatis nmap(whatis)
 whatis msfvenom
 
+///to find my ip address at a time
+ip address |grep wlan0 |grep inet| awk '{print $2}'
+
+
 
 
 
