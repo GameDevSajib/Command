@@ -206,6 +206,22 @@ ss
 netstat -tulpn 
 ss -tulpn  
 
+///In same Lan connect two computer whose one port is open in ssh 
+ sudo apt-get install openssh-server
+ sudo apt-get install ufw
+ sudo ufw allow ssh 
+ sudo iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+ sudo ufw allow 80  
+ sudo ufw enable 
+ sudo ufw status
+
+in another computer in lan type 
+sudo ssh -p 22 sajib@192.168.0.103(Kali-linix-Ip)
+
+
+
+
+
 
 
 
