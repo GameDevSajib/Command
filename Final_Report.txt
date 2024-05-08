@@ -218,6 +218,14 @@ ss -tulpn
 in another computer in lan type 
 sudo ssh -p 22 sajib@192.168.0.103(Kali-linix-Ip)
 
+///to check the process 
+ps
+top
+////to check the storage or others
+df
+df -H
+
+
 
 
 
