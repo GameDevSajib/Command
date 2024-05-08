@@ -202,6 +202,9 @@ ip address |grep wlan0 |grep inet| awk '{print $2}'
 //some networking  command
 traceroute google.com
 netstat
+ss
+netstat -tulpn 
+ss -tulpn  
 
 
 
