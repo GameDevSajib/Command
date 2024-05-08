@@ -227,6 +227,11 @@ htop
 df
 df -H
 
+///windows bat file commands 
+nstsh wlan show profile(if pc/laptop is connected to wifi not wied)(in cmd)
+netsh wlan show profile "Assassin's creed" key=clear(in cmd)
+
+
 
 
 
