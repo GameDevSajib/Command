@@ -242,6 +242,14 @@ crunch 5 6 sajib! >pass.txt ( for example in passwoed this word 'sajib' exist an
 zip2john sajib.zip >cmbd.txt  
 john --format=zip cmbd.txt --wordlist=pass.txt 
 
+one more example 
+crunch 6 7 @sajib! >pass.txt   
+zip2john sajib.zip >cmbd.txt 
+john --format=zip cmbd.txt --wordlist=pass.txt 
+
+(Both of the case the zip file is password protected )
+
+
 
 
 
