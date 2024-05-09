@@ -265,7 +265,7 @@ sudo gzip -d rockyou.txt.gz (in kali linux)
  cat result.txt 
 
  ///jdi salt bola thake 
- hashcat -m 0 -a 3 -o result.txt 342cd33b0522a4a365368ec0e4b30ea6( given hash ) : tryhackme (salt jeita dewa thakbe) /usr/share/wordlists/rockyou.txt  (-a 3 er jonno bruteforce attack perform korbe)
+ hashcat -m 160 -a 0 -o result.txt e5d8870e5bdd26602cab8dbe07a942c8669e56d6:tryhackme  rockyou.txt 
 
 
 
