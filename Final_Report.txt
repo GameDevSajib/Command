@@ -232,8 +232,14 @@ nstsh wlan show profile(if pc/laptop is connected to wifi not wied)(in cmd)
 netsh wlan show profile "Assassin's creed" key=clear(in cmd)
 
 //john the ripper passwork cracking
+//this works for the simple password not the hard password
+
 zip2john sajib.zip >demo.txt(password protected zip and it will generate a hash value to demo.txt)
 john --format=zip demo.txt
+
+////Now slightly harder password 
+
+
 
 
 
