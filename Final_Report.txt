@@ -255,7 +255,7 @@ locate rockyou.txt( in kali linux)
 cd /usr/share/wordlists (in kali linux)
 sudo gzip -d rockyou.txt.gz (in kali linux)
 
- hashcat -m 0 -a 0 -o result.txt 827ccb0eea8a706c4c34a16891f84e7b /usr/share/wordlists/rockyou.txt (Cracking md5 hash  attack mode =0 )
+ hashcat -m 0 -a 0 -o result.txt 827ccb0eea8a706c4c34a16891f84e7b /usr/share/wordlists/rockyou.txt (Cracking md5 hash  attack mode =0  we can check our hash from hash analyzer )
  cat result.txt
 
 
