@@ -249,6 +249,7 @@ john --format=zip cmbd.txt --wordlist=pass.txt
 
 (Both of the case the zip file is password protected )
 
+password cracking using hashcat 
 
 
 
